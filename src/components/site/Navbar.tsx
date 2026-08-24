@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X, Stethoscope } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { NAV_LINKS, WHATSAPP_LINK } from "@/lib/site";
+import { NAV_LINKS, WHATSAPP_LINK, LOGO_IMG } from "@/lib/site";
 import { WhatsAppIcon } from "./WhatsAppIcon";
 import { ThemeToggle } from "./ThemeToggle";
 import { cn } from "@/lib/utils";
@@ -28,9 +28,7 @@ export function Navbar() {
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3.5 sm:px-8">
         <a href="#home" className="flex items-center gap-2.5">
-          <span className="flex size-9 items-center justify-center rounded-xl bg-primary text-primary-foreground">
-            <Stethoscope className="size-4.5" strokeWidth={2} />
-          </span>
+          <img src={LOGO_IMG} alt="Dr. Neeraj Logo" className="size-9 rounded-xl object-cover shadow-soft" />
           <span className="font-display text-lg font-bold tracking-tight text-primary">
             Dr. Neeraj K Gupta
           </span>
