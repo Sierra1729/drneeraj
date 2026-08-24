@@ -663,12 +663,12 @@ function Footer() {
           <p>
             Designed by{" "}
             <a
-              href="https://www.instagram.com/sitestudiojammu"
+              href="https://www.instagram.com/pawandeep1729"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-primary-foreground"
             >
-              Site Studio Jammu
+              Singh Developments
             </a>
           </p>
         </div>
