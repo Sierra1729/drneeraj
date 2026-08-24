@@ -49,13 +49,13 @@ import aboutPhoto from "@/assets/doctor-about.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dr. Nikhil — Personalized Care You Can Trust" },
+      { title: "Dr. Neeraj K Gupta — Personalized Care You Can Trust" },
       {
         name: "description",
         content:
-          "Boutique private practice offering compassionate, evidence-based and personalized medical care. Book an appointment or chat on WhatsApp with Dr. Nikhil.",
+          "Boutique private practice offering compassionate, evidence-based and personalized medical care. Book an appointment or chat on WhatsApp with Dr. Neeraj K Gupta.",
       },
-      { property: "og:title", content: "Dr. Nikhil — Personalized Care You Can Trust" },
+      { property: "og:title", content: "Dr. Neeraj K Gupta — Personalized Care You Can Trust" },
       {
         property: "og:description",
         content:
@@ -136,7 +136,7 @@ function Hero() {
             Personalized Care. Better Health. A Doctor You Can Trust.
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Compassionate, evidence-based medicine delivered at a human pace. Dr. Nikhil offers
+            Compassionate, evidence-based medicine delivered at a human pace. Dr. Neeraj K Gupta offers
             unhurried consultations and care plans built around you — not a template.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -179,7 +179,7 @@ function Hero() {
           />
           <img
             src={heroPortrait}
-            alt="Portrait of Dr. Nikhil in a white coat"
+            alt="Portrait of Dr. Neeraj K Gupta in a white coat"
             width={1024}
             height={1280}
             className="relative w-full rounded-[2rem] object-cover shadow-lift"
@@ -242,7 +242,7 @@ function About() {
             Medicine practiced with patience and precision
           </h2>
           <p className="mt-5 leading-relaxed text-muted-foreground">
-            Dr. Nikhil is a [SPECIALIZATION] practising at a boutique clinic where every visit is
+            Dr. Neeraj K Gupta is a [SPECIALIZATION] practising at a boutique clinic where every visit is
             given the time it deserves. The approach is simple: listen carefully, investigate
             thoughtfully, and explain every option clearly so you can decide with confidence.
           </p>
@@ -328,7 +328,7 @@ function WhyChoose() {
   return (
     <section className="py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
-        <SectionHead eyebrow="Why patients stay" title="Why choose Dr. Nikhil" />
+        <SectionHead eyebrow="Why patients stay" title="Why choose Dr. Neeraj K Gupta" />
         <ul className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {reasons.map(({ icon: Icon, title, desc }, i) => (
             <Reveal as="li" key={title} delay={i * 70} className="text-center sm:text-left">
@@ -484,7 +484,7 @@ function Footer() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
-            <p className="font-display text-xl font-bold">Dr. Nikhil</p>
+            <p className="font-display text-xl font-bold">Dr. Neeraj K Gupta</p>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-primary-foreground/70">
               A boutique private practice offering calm, personalized and evidence-based medical
               care.
@@ -546,7 +546,7 @@ function Footer() {
             substitute for professional medical advice, diagnosis, or treatment.
           </p>
           <p className="mt-4 text-xs text-primary-foreground/60">
-            © {new Date().getFullYear()} Dr. Nikhil. All rights reserved.
+            © {new Date().getFullYear()} Dr. Neeraj K Gupta. All rights reserved.
           </p>
         </div>
       </div>

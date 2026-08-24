@@ -7,7 +7,7 @@ export const CLINIC_ADDRESS = "IT Centre, University of Jammu, Jammu, J&K";
 // ───────────────────────────────────────────────────────────────────────
 
 export const WHATSAPP_MESSAGE =
-  "Hello Dr. Nikhil, I would like to book an appointment";
+  "Hello Dr. Neeraj K Gupta, I would like to book an appointment";
 
 /** Keeps digits only, so placeholders never produce a broken wa.me / tel: URL. */
 const digits = (value: string) => value.replace(/\D/g, "");

@@ -32,7 +32,7 @@ export function Navbar() {
             <Stethoscope className="size-4.5" strokeWidth={2} />
           </span>
           <span className="font-display text-lg font-bold tracking-tight text-primary">
-            Dr. Nikhil
+            Dr. Neeraj K Gupta
           </span>
         </a>
 

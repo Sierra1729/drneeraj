@@ -77,11 +77,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Dr. Nikhil — Personalized Medical Care" },
+      { title: "Dr. Neeraj K Gupta — Personalized Medical Care" },
       {
         name: "description",
         content:
-          "Compassionate, evidence-based and personalized medical care with Dr. Nikhil. Book an appointment or chat on WhatsApp.",
+          "Compassionate, evidence-based and personalized medical care with Dr. Neeraj K Gupta. Book an appointment or chat on WhatsApp.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
